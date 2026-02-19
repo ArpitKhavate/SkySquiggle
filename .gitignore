@@ -1,4 +1,7 @@
-# .gitignore for VisionDraw (Air Canvas)
+# .gitignore for SkySquiggle (Air Canvas)
+
+# Environment secrets
+.env
 
 # Python
 __pycache__/
@@ -39,6 +42,7 @@ env/
 
 # Generated drawings
 air_canvas_*.png
+sky_squiggle_*.png
 
 # MediaPipe model (auto-downloaded)
 hand_landmarker.task
